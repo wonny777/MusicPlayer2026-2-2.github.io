@@ -1,13 +1,13 @@
 //test wonigel
 //
 print("Hello");
-print("World");
+print("Queenie");
 //
 print("Hello");
-print("\tWorld");
+print("\tQueenie");
 //
 print("Hello");
-print("\nWorld");
-println("Hello World");
+print("\nQueenie");
+println("Hello Queenie");
 //
 println("Hello People");

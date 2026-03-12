@@ -17,8 +17,8 @@ float SearchSquareY = appHeight * 1.0 / paperHeight;
 float SearchSquareWidth = appWidth * 1.0 / paperWidth;
 float SearchSquareHeight = appHeight * 1.0 / paperHeight;
 //
-float TopRightSqX = appWidth * 25.6 / paperWidth;
-float TopRightSqY = appHeight * 1.0 / paperHeight;
+float TopRightSqX = appWidth * 34.0 / paperWidth;
+float TopRightSqY = appHeight * 0 / paperHeight;
 float TopRightSqWidth = appWidth * 1.0 / paperWidth;
 float TopRightSqHeight = appHeight * 1.0 / paperHeight;
 //
@@ -51,10 +51,18 @@ float BigSquareHeight = appHeight * 9.0 / paperHeight;
 //
 float SmallSq1X = appWidth * 22.5 / paperWidth;
 float SmallSq1Y = appHeight * 15.9 / paperHeight;
+float SmallSq1Width = appWidth * 1.3 / paperWidth;
+float SmallSq1Height = appHeight * 1.3 / paperHeight;
+//
 float SmallSq2X = appWidth * 24.4 / paperWidth;
 float SmallSq2Y = appHeight * 15.9 / paperHeight;
+float SmallSq2Width = appWidth * 1.5 / paperWidth;
+float SmallSq2Height = appHeight * 1.5 / paperHeight;
+//
 float SmallSq3X = appWidth * 26.5 / paperWidth;
 float SmallSq3Y = appHeight * 15.9 / paperHeight;
+float SmallSq3Width = appWidth * 1.3 / paperWidth;
+float SmallSq3Height = appHeight * 1.3 / paperHeight;
 //
 float BottomBarX = appWidth * 20.0 / paperWidth;
 float BottomBarY = appHeight * 19.9 / paperHeight;
@@ -77,7 +85,7 @@ rect(LyricsX, LyricsY, LyricsWidth, LyricsHeight);
 rect(RightRectX, RightRectY, RightRectWidth, RightRectHeight);
 rect(BigSquareX, BigSquareY, BigSquareWidth, BigSquareHeight);
 
-rect(SmallSq1X, SmallSq1Y);
-rect(SmallSq2X, SmallSq2Y);
-rect(SmallSq3X, SmallSq3Y);
+rect(SmallSq1X, SmallSq1Y, SmallSq1Width, SmallSq1Height);
+rect(SmallSq2X, SmallSq2Y, SmallSq2Width, SmallSq2Height);
+rect(SmallSq3X, SmallSq3Y, SmallSq3Width, SmallSq3Height);
 rect(BottomBarX, BottomBarY, BottomBarWidth, BottomBarHeight);

@@ -1,8 +1,8 @@
-float appWidth, appHeight;
+ //<>//
+fullScreen(); 
 //
-fullScreen();
-appWidth = width;
-appHeight = height;
+float appWidth = width;
+float appHeight = height;
 //
 float paperWidth = 35.0;
 float paperHeight = 22.2;
@@ -71,8 +71,8 @@ float BottomBarHeight = appHeight * 1.0 / paperHeight;
 //
 rect(SearchBarX, SearchBarY, SearchBarWidth, SearchBarHeight);
 rect(SearchSquareX, SearchSquareY, SearchSquareWidth, SearchSquareHeight);
-rect(TopRightSqX, TopRightSqY, TopRightSqWidth, TopRightSqHeight); //<>//
-
+rect(TopRightSqX, TopRightSqY, TopRightSqWidth, TopRightSqHeight);
+//
 rect(HomeX, Home1Y, HomeWidth, HomeHeight);
 rect(HomeX, Home2Y, HomeWidth, HomeHeight);
 rect(HomeX, Home3Y, HomeWidth, HomeHeight);
@@ -80,11 +80,11 @@ rect(HomeX, Home4Y, HomeWidth, HomeHeight);
 rect(HomeX, Home5Y, HomeWidth, HomeHeight);
 rect(HomeX, Home6Y, HomeWidth, HomeHeight);
 rect(HomeX, Home7Y, HomeWidth, HomeHeight);
-
+//
 rect(LyricsX, LyricsY, LyricsWidth, LyricsHeight);
 rect(RightRectX, RightRectY, RightRectWidth, RightRectHeight);
 rect(BigSquareX, BigSquareY, BigSquareWidth, BigSquareHeight);
-
+//
 rect(SmallSq1X, SmallSq1Y, SmallSq1Width, SmallSq1Height);
 rect(SmallSq2X, SmallSq2Y, SmallSq2Width, SmallSq2Height);
 rect(SmallSq3X, SmallSq3Y, SmallSq3Width, SmallSq3Height);
